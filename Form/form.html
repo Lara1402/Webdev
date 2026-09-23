@@ -8,11 +8,19 @@
 <body>
     <h2>HTML Forms</h2>
 
-    <form action="/action_page.php">
+    <form action="/submit" method="post">
+
+    <!--Label and Input for Username-->
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" value="Enter your first name"><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Enter your last name"><br><br>
+    <input type="text" id="lname" name="lname" value="Enter your last name"><br>
+
+    <!--Label and Input for Password-->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="Enter your password"><br>
+
+    <!--Your submission-->
     <input type="submit" value="Submit">
     </form> 
 </body>
