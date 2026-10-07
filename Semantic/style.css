@@ -1,0 +1,19 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: palevioletred;
+}
+
+h1 {
+  color: pink;
+}
+p { color: green; }
+.note  { color: orange; }
+#intro { color: purple; }
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
