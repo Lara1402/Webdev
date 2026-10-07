@@ -8,12 +8,18 @@ h1 {
   color: pink;
 }
 p { color: green; }
-.note  { color: orange; }
-#intro { color: purple; }
+.note  { color: orange !important; }
+#intro { color: purple;}
 
 p {
   font-size: 14px;
   line-height: 1.5;
 }
 
-
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid #000;
+  margin: 10px;
+}
