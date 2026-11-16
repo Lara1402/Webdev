@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .whole {
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+        width: 500px;
+        height: 400px;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-radius: 10px;
+        text-align: right;
+        color: white;
+        font-size: larger;
+    }
+
+    .whole div {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        text-align: right;
+        align-self: flex-start;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <div class="whole">
+        Div1
+        <div id="div2">Div2</div>
+    </div>
+</body>
+</html>
